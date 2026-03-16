@@ -1,0 +1,500 @@
+/* --- Shared Form Styling --- */
+.mr-edit-profile-form, .member-registration-fields {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    border: 0;
+}
+
+fieldset.member-registration-fields {
+    max-width: 650px;
+    margin: 0 auto;
+}
+.mr-edit-profile-form p, .member-registration-fields p {
+    margin-bottom: 15px !important;
+}
+
+.mr-edit-profile-form label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+/* --- Required Mark --- */
+.required {
+    color: #e74c3c;
+    margin-left: 2px;
+    font-weight: bold;
+}
+
+/* Ensure labels have enough space */
+.mr-edit-profile-form label, 
+.member-registration-fields label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+}
+.member-registration-fields label{
+font-family: "Lexend", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.e-atc-qty-button-holder {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+button.single_add_to_cart_button.button.alt {
+    width: 100%;
+    background-color: #9e9259 ! IMPORTANT;
+    font-family: "Lexend", Sans-serif;
+    font-weight: 400;
+padding: 18px 0;
+}
+fieldset.member-registration-fields {
+    max-width: 650px;
+    margin: 0 auto;
+}
+/* --- Required Mark --- */
+.required {
+    color: #e74c3c;
+    margin-left: 2px;
+    font-weight: bold;
+}
+
+/* Ensure labels have enough space */
+.mr-edit-profile-form label, 
+.member-registration-fields label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+}
+.member-registration-fields label,
+.mr-edit-profile-form label{
+font-family: "Lexend", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+	color:#fff;
+}
+.mr-edit-profile-form button {
+    background-color: #9e9259 ! IMPORTANT;
+    font-family: "Lexend", Sans-serif !important;
+    font-weight: 400 !important;
+    padding: 15px 30px !important;
+    color: #fff !important;
+}
+.mr-edit-profile-form button:hover {
+    background-color: #005177 !important;
+}
+input[type=email], 
+input[type=number],
+input[type=tel], 
+input[type=text], 
+input[type=url], 
+textarea{
+	background-color: #FFFFFF0F;
+    border-color: #FFFFFF30 !important;
+    border-radius: 0px 0px 0px 0px;
+	color:#fff;
+}
+
+#mr-change-image-link, #mr-reg-upload-link {
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Lexend", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #9E9259;
+}
+
+
+.mr-edit-profile-form input[type='text'],
+.mr-edit-profile-form input[type='email'],
+.mr-edit-profile-form input[type='url'],
+.mr-edit-profile-form textarea,
+.member-registration-fields input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.mr-edit-profile-form textarea {
+    height: 100px;
+}
+
+/* --- Profile Picture Section --- */
+.mr-preview-area { 
+    width: 120px; 
+    height: 120px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    border: 3px solid #fff; 
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin: 0 auto 10px auto; 
+    background: #f5f5f5; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.mr-preview-area img { 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+#mr-change-image-link, #mr-reg-upload-link { 
+    font-size: 14px; 
+    text-decoration: none; 
+    color: #9e9259; 
+    cursor: pointer; 
+    display: block; 
+    text-align: center; 
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#mr-change-image-link:hover, #mr-reg-upload-link:hover { 
+    text-decoration: underline; 
+}
+
+/* --- Cropping Modal --- */
+#mr-crop-modal { 
+    display: none; 
+    position: fixed; 
+    inset: 0; 
+    background: rgba(0,0,0,0.85); 
+    z-index: 99999; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px; 
+}
+
+.mr-crop-container { 
+    background: #245A5C; 
+    padding: 25px; 
+    border-radius: 12px; 
+    max-width: 500px; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+button#reg-save-crop {
+    background-color: #9e9259 ! IMPORTANT;
+    font-family: "Lexend", Sans-serif;
+    font-weight: 400;
+    font-size: 16px !important;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.mr-crop-wrapper { 
+    max-height: 400px; 
+    margin-bottom: 20px; 
+    overflow: hidden; 
+    background: #333; 
+    border-radius: 4px;
+}
+
+.mr-crop-container h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #9e9259;
+    font-family: "Lexend", Sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+button#reg-save-crop,
+button#reg-cancel-crop {
+    background-color: #9e9259 ! IMPORTANT;
+    font-family: "Lexend", Sans-serif;
+    font-weight: 400;
+    font-size: 15px !important;
+    color: #fff;
+    padding: 10px 20px;
+}
+button#reg-cancel-crop {
+    background-color: #fff ! IMPORTANT;
+    color: #9e9259;
+}
+
+.mr-edit-profile-form input:focus, 
+.mr-edit-profile-form textarea:focus,
+.member-registration-fields input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 115, 170, 0.3);
+}
+
+
+.mr-edit-profile-form button[type="submit"],
+#reg-save-crop, #save-crop {
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease;
+}
+
+.mr-edit-profile-form button[type="submit"]:hover,
+#reg-save-crop:hover, #save-crop:hover {
+    background-color: #005177;
+    cursor: pointer;
+}
+
+.mr-edit-profile-form button[type="submit"]:active {
+    transform: scale(0.98);
+}
+
+@media (max-width: 600px) {
+    .mr-edit-profile-form, .member-registration-fields {
+        padding: 15px;
+        margin: 10px auto;
+    }
+    
+    .mr-preview-area {
+        width: 100px;
+        height: 100px;
+    }
+}
+::placeholder {
+    color: #a9a9a9;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+/* --- Custom Branding Modals --- */
+.mr-custom-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 99999;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.mr-modal-content {
+    background: #245A5C; /* Dark Green from your brand */
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+    border: 1px solid #9E925930; /* Subtle Gold border */
+}
+
+.mr-modal-content h3 {
+    color: #9E9259; /* Gold from your brand */
+    font-family: "Lexend", Sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.mr-modal-content p {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+#close-error-modal {
+    background-color: #9E9259 !important; /* Gold Button */
+    color: #ffffff !important;
+    padding: 12px 30px !important;
+    font-family: "Lexend", Sans-serif !important;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#close-error-modal:hover {
+    background-color: #005177 !important; /* Blue hover */
+}
+
+/* --- Welcome Modal Enhancements --- */
+
+/* Close Icon (X) */
+.mr-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    color: #9E9259;
+    cursor: pointer;
+    line-height: 1;
+    transition: color 0.2s;
+}
+
+.mr-modal-close:hover {
+    color: #fff;
+}
+
+/* Action Buttons Layout */
+.mr-modal-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.mr-modal-actions .button {
+    flex: 1;
+    text-align: center;
+    padding: 12px 10px !important;
+    font-size: 13px !important;
+}
+
+/* Secondary Gold Button Style */
+.mr-modal-actions .button.secondary-gold {
+    background-color: transparent !important;
+    border: 1px solid #9E9259 !important;
+    color: #9E9259 !important;
+}
+
+.mr-modal-actions .button.secondary-gold:hover {
+    background-color: #9E9259 !important;
+    color: #fff !important;
+}
+
+@media (max-width: 480px) {
+    .mr-modal-actions {
+        flex-direction: column;
+    }
+}
+/* --- Welcome Popup Styling --- */
+.mr-welcome-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    backdrop-filter: blur(4px); /* Modern blur effect */
+}
+
+.mr-welcome-card {
+    background: #245A5C; /* Brand Dark Green */
+    border: 1px solid #9E9259; /* Brand Gold */
+    padding: 45px;
+    border-radius: 7px;
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.mr-welcome-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: #9E9259;
+    font-size: 28px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.mr-welcome-title {
+    color: #9E9259 !important;
+    font-size: 24px !important;
+    margin-bottom: 15px !important;
+    font-weight: 500 !important;
+    font-family: "Lexend", Sans-serif !important;
+
+}
+
+.mr-welcome-text {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Lexend", Sans-serif !important;
+}
+
+/* Buttons inside the Card */
+.mr-welcome-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.mr-btn-primary {
+    background: #9E9259 !important;
+    color: #ffffff !important;
+    padding: 12px 24px !important;
+    border-radius: 5px !important;
+    text-decoration: none !important;
+    font-weight: 500 !important;
+    transition: 0.3s ease all; 
+    font-family: "Lexend", Sans-serif !important;
+}
+
+.mr-btn-outline {
+    border: 1px solid #9E9259 !important;
+    color: #9E9259 !important;
+    padding: 12px 24px !important;
+    border-radius: 5px !important;
+    text-decoration: none !important;
+    font-weight: 500 !important;
+    transition: 0.3s ease all; 
+    font-family: "Lexend", Sans-serif !important;
+}
+.mr-btn-primary:hover {
+    background: #153233 !important;
+}
+.mr-btn-outline:hover {
+    background: #9E9259 !important;
+    color: #ffffff !important;
+}
+
+
+/* --- Welcome Popup Animation --- */
+@keyframes mrFadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes mrScaleUp {
+    from { transform: scale(0.9); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+.mr-welcome-overlay {
+    /* ... existing properties ... */
+    animation: mrFadeIn 0.4s ease-out forwards;
+}
+
+.mr-welcome-card {
+    /* ... existing properties ... */
+    animation: mrScaleUp 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+/* Smooth Exit */
+.mr-welcome-overlay.fade-out {
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+}
+.mr-modal-actions a{
+    transition: all 0.3s ease;
+}
+a.button.modal-button1:hover {
+    background: #153233 ! IMPORTANT;
+}

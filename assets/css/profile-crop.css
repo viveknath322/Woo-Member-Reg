@@ -1,0 +1,25 @@
+.mr-avatar-wrapper img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#mr-crop-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.mr-crop-box {
+    background: #fff;
+    padding: 15px;
+}
+
+.mr-crop-box img {
+    max-width: 300px;
+}
